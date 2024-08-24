@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #072232;
+}
+
+#outer {
+    height: 600px;
+    width: 600px;
+    border-radius: 20px;
+    background-image: url('glass.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: #ffffff5d;
+    backdrop-filter: blur(20px);
+}
+
+
+
+
+
